@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 import PracticeAreas from "./components/Practice";
+import Preloader from "./components/Preloader";
 import Story from "./components/Story";
 import Team from "./components/Team";
 import "./globals.css";
@@ -19,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <Preloader/>
         <Header/>
         <NavBar/>
         <Hero/>
