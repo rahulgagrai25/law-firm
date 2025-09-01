@@ -3,6 +3,7 @@ import Commitment from "./components/Commitment";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
+import PracticeAreas from "./components/Practice";
 import "./globals.css";
 
 
@@ -18,6 +19,7 @@ export default function RootLayout({
         <NavBar/>
         <Hero/>
         <Commitment/>
+        <PracticeAreas/>
         {children}
       </body>
     </html>
