@@ -1,9 +1,10 @@
 import React from "react";
+import Image from "next/image";
 
 function NavBar() {
   return (
     <div className="navbar">
-      <img src="social_icons/law-logo.png" alt="" />
+      <Image src="/social_icons/law-logo.png" alt="" width={80} height={80} />
 
       <ul>
         <a href="#home">

@@ -1,20 +1,12 @@
-
-type Props = {
-  // optional: pass custom image paths or text
-  heroImage?: string;
-  title?: string;
-  paragraphs?: string[];
-};
+import Image from "next/image";
 
 function Story({
-  heroImage = "/images/about-hero.jpg",
-  
   title = "Story About the Firm.",
   paragraphs = [
     "We understand that navigating the intricate landscape of legal challenges can be daunting. Our seasoned team of dedicated legal professionals is here to guide you through your legal journey with expertise and empathy.",
     "Founded on principles of integrity, diligence, and client-centricity, Attorna prides itself on delivering tailored legal solutions that prioritize your unique circumstances.",
   ],
-}: Props) {
+}) {
   return (
     <section className="story-about" aria-label="About Attorna">
       <div className="story-about__ghost" aria-hidden>
@@ -44,7 +36,7 @@ function Story({
 
         <div className="story-about__right" aria-hidden>
           <div className="img-wrap img-wrap--large">
-            <img src="/hero/story2.png" alt="" />
+            <Image src="/hero/story2.png" alt="" width={520} height={560} />
           </div>
 
           

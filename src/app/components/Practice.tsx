@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 type Card = {
   id: number;
   title: string;
@@ -38,7 +40,7 @@ function Practice() {
           {firstRow.map((c) => (
             <article className="practice__card" key={c.id} role="listitem">
               <div className="practice__media">
-                <img src={c.image} alt={c.title} />
+                <Image src={c.image} alt={c.title} width={400} height={220} />
               </div>
 
               <div className="practice__body">
@@ -67,7 +69,7 @@ function Practice() {
           {secondRow.map((c) => (
             <article className="practice__card" key={c.id}>
               <div className="practice__media">
-                <img src={c.image} alt={c.title} />
+                <Image src={c.image} alt={c.title} width={400} height={220} />
               </div>
               <div className="practice__body">
                 <div>

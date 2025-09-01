@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 function Hero() {
   return (
@@ -16,7 +17,7 @@ function Hero() {
         </div>
       </div>
       <div className="h-[100vh] w-[50%] flex justify-center">
-        <img className="h-[100vh] opacity-45" src="/hero/law-lady.png" alt="" />
+        <Image className="h-[100vh] opacity-45" src="/hero/law-lady.png" alt="" width={700} height={800} />
       </div>
     </div>
   );

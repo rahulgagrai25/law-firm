@@ -178,7 +178,7 @@ function Contact() {
             <button type="submit" className="btn btn--submit" aria-label="Submit form" disabled={sent}>
               {sent ? "Submitted" : "Submit Now"}
             </button>
-            {sent && <div className="contact__sent">Thanks — we'll contact you shortly.</div>}
+            {sent && <div className="contact__sent">Thanks — we&apos;ll contact you shortly.</div>}
           </div>
         </form>
       </div>

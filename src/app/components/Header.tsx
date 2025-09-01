@@ -1,14 +1,15 @@
 import React from 'react'
+import Image from 'next/image'
 
 function Header() {
   return (
     <div className="header">
         <div className="contact-container">
             <div className="left-logo">
-                <a href=""><img src="social_icons/facebook.png" alt="" /></a>
-                <a href=""><img src="social_icons/linkedin.png" alt="" /></a>
-                <a href=""><img src="social_icons/twitter.png" alt="" /></a>
-                <a href=""><img src="social_icons/instagram.png" alt="" /></a>
+                <a href=""><Image src="/social_icons/facebook.png" alt="" width={20} height={20} /></a>
+                <a href=""><Image src="/social_icons/linkedin.png" alt="" width={20} height={20} /></a>
+                <a href=""><Image src="/social_icons/twitter.png" alt="" width={20} height={20} /></a>
+                <a href=""><Image src="/social_icons/instagram.png" alt="" width={20} height={20} /></a>
             </div>
             <div className="right-email">
                 <p>+1 987-654-3210 |  Contact@Firm.co</p>
