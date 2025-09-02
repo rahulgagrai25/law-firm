@@ -28,7 +28,7 @@ function Story({
           </div>
 
           <div className="story-about__actions">
-            <a className="btn btn--primary" href="#contact">
+            <a className="btn-story btn--primary" href="#contact">
               Contact Us
             </a>
           </div>

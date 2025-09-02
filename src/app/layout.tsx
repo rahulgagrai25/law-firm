@@ -1,6 +1,7 @@
 
 import Commitment from "./components/Commitment";
 import Contact from "./components/Contact";
+import StatsSection from "./components/Counting";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -26,6 +27,7 @@ export default function RootLayout({
         <Hero/>
         <Commitment/>
         <PracticeAreas/>
+        <StatsSection></StatsSection>
         <Story/>
         <Team/>
         <Contact/>

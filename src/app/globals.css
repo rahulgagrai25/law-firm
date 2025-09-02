@@ -380,6 +380,7 @@
   font-family: "Jost", system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial;
   color: #4b453d;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -469,14 +470,14 @@
 .story-about__actions {
   margin-top: 18px;
 }
-.btn {
+.btn-story {
   display: inline-block;
   padding: 5px 20px;
   border-radius: 2px;
   font-size: 14px;
   text-decoration: none;
   font-family: "Jost", sans-serif;
-  font-weight: 500;
+  
   letter-spacing: 2px;
 }
 .btn--primary {
@@ -1058,4 +1059,49 @@
   padding-top: 15px;
   font-size: 13px;
   color: #c2bab2;
+}
+
+/* State section */
+
+.stats-section {
+  width: 100%;
+  background: #fcf7f0;
+  padding: 3rem 1rem;
+  padding-bottom: 50px;
+}
+
+.stats-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-left: 1px solid #e5e5e5;
+  /* border-top: 1px solid #e5e5e5; */
+}
+
+@media (min-width: 768px) {
+  .stats-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.stat-card {
+  padding: 2rem 1.5rem;
+  border-right: 1px solid #e5e5e5;
+  /* border-bottom: 1px solid #e5e5e5; */
+  text-align: center;
+}
+
+.stat-value {
+  font-family: "Lora", serif;
+  font-size: 50px;
+  letter-spacing: 1px;
+  color: #372d1f;
+  margin-bottom: 0.5rem;
+}
+
+.stat-label {
+  font-family: "Jost", sans-serif;
+  font-size: 1rem;
+  color: #92897d;
 }
