@@ -1,4 +1,5 @@
 
+import Blog from "./components/Blog";
 import CaseStudies from "./components/CaseStudies";
 import Commitment from "./components/Commitment";
 import Contact from "./components/Contact";
@@ -11,6 +12,7 @@ import PracticeAreas from "./components/Practice";
 import Preloader from "./components/Preloader";
 import Story from "./components/Story";
 import Team from "./components/Team";
+import Testimonial from "./components/Testimonial";
 import "./globals.css";
 
 
@@ -31,8 +33,10 @@ export default function RootLayout({
         <StatsSection></StatsSection>
         <Story/>
         <Team/>
+        <Testimonial/>
         <Contact/>
         <CaseStudies/>
+        <Blog/>
         <Footer/>
         {children}
       </body>
