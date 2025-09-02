@@ -1,19 +1,28 @@
 "use client";
 
 import React from "react";
-
+import Image from "next/image";
 
 function Footer() {
   return (
     <footer className="footer">
       <div className="footer__inner">
-        {/* Left side */}
-        <div className="footer__about">
-          <h3 className="footer__title">Wilson Firm</h3>
-          <p className="footer__desc">
-            Providing trusted legal services in Corporate, Real Estate,
-            Healthcare, and more.
-          </p>
+        {/* Left side - Logo + About */}
+        <div className="footer__brand">
+          <Image
+            src="/social_icons/law-logo.png"
+            alt="Wilson Firm Logo"
+            width={80}
+            height={80}
+            className="footer__logo"
+          />
+          <div className="footer__about">
+            <h3 className="footer__title">Wilson Firm Co.</h3>
+            <p className="footer__desc">
+              Providing trusted legal services in Corporate, Real Estate,
+              Healthcare, and more.
+            </p>
+          </div>
         </div>
 
         {/* Center - Links */}

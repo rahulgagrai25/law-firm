@@ -1,4 +1,5 @@
 
+import CaseStudies from "./components/CaseStudies";
 import Commitment from "./components/Commitment";
 import Contact from "./components/Contact";
 import StatsSection from "./components/Counting";
@@ -31,6 +32,7 @@ export default function RootLayout({
         <Story/>
         <Team/>
         <Contact/>
+        <CaseStudies/>
         <Footer/>
         {children}
       </body>
