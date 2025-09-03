@@ -61,9 +61,7 @@ function Contact() {
   return (
     
     <section className="contact bg-none" aria-label="Free Consultation">
-        <div className="contact__ghost" aria-hidden>
-        Contact
-      </div>
+        
       <div className="contact__inner">
         <div className="contact__left">
           <div className="contact__meta">
