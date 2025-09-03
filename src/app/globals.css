@@ -288,7 +288,7 @@ html, body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 70px;
+  margin-left: 90px;
   box-sizing: border-box;
 }
 
@@ -312,12 +312,12 @@ html, body {
   font-family: "Jost", sans-serif;
   background-color: #ab9068;
   color: #fff;
-  padding: 10px 20px;
+  padding: 5px 20px;
   border-radius: 2px;
   transition: 0.2s ease-in;
   border: none;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 14px;
   width: fit-content;
 }
 
@@ -344,8 +344,9 @@ html, body {
     flex-direction: column;
     background-image: url('/social_icons/law-logo.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     background-size: 200px;
+    height: 500px;
     background-color: #fcf7f0;
   }
   
