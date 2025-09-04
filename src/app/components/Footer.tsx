@@ -17,7 +17,7 @@ function Footer() {
             className="footer__logo"
           />
           <div className="footer__about">
-            <h3 className="footer__title">Wilson Firm Co.</h3>
+            <h3 className="footer__title">MTS Legal Firm Co.</h3>
             <p className="footer__desc">
               Providing trusted legal services in Corporate, Real Estate, Civil, Criminal, and more.
             </p>
