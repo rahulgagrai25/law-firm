@@ -3,14 +3,14 @@ import Image from "next/image";
 function Story({
   title = "Story About the Firm.",
   paragraphs = [
-    "We understand that navigating the intricate landscape of legal challenges can be daunting. Our seasoned team of dedicated legal professionals is here to guide you through your legal journey with expertise and empathy.",
-    "Founded on principles of integrity, diligence, and client-centricity, Attorna prides itself on delivering tailored legal solutions that prioritize your unique circumstances.",
+    "At MTS Legal, we understand that navigating complex legal challenges can be daunting. Our experienced team is committed to guiding you with clarity, expertise, and empathy at every step of your journey.",
+    "Founded in 2014 on the principles of integrity, diligence, and client-focused service, we take pride in delivering tailored solutions that address your unique business and financial needs, ensuring strategic outcomes that stand the test of time.",
   ],
 }) {
   return (
     <section className="story-about" aria-label="About Attorna">
       <div className="story-about__ghost" aria-hidden>
-        ATTORNA
+        MTS LEGAL
       </div>
 
       <div className="story-about__inner">

@@ -12,7 +12,7 @@ function Header() {
                 <a href=""><Image src="/social_icons/instagram.png" alt="" width={20} height={20} /></a>
             </div>
             <div className="right-email">
-                <p>+1 987-654-3210 |  Contact@Firm.co</p>
+                <p>+1 987-654-3210 &nbsp; | &nbsp; contact@MTSLegalFirm.co</p>
             </div>
         </div>
     </div>

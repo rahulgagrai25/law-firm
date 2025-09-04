@@ -19,8 +19,7 @@ function Footer() {
           <div className="footer__about">
             <h3 className="footer__title">Wilson Firm Co.</h3>
             <p className="footer__desc">
-              Providing trusted legal services in Corporate, Real Estate,
-              Healthcare, and more.
+              Providing trusted legal services in Corporate, Real Estate, Civil, Criminal, and more.
             </p>
           </div>
         </div>
@@ -40,16 +39,16 @@ function Footer() {
         <div className="footer__contact">
           <h4>Contact Info</h4>
           <ul>
-            <li>📍 12th Wall Street NY CV564, United States</li>
+            <li>📍 Kochi, Kerela</li>
             <li>📞 (1) 2345-2345-54</li>
-            <li>✉️ contact@firm.co</li>
+            <li>✉️ contact@MTSLegalFirm.co</li>
           </ul>
         </div>
       </div>
 
       {/* Bottom bar */}
       <div className="footer__bottom">
-        <p>© {new Date().getFullYear()} Attorna Firm. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} MTS Legal Firm. All rights reserved. By Appatotech Innovation.</p>
       </div>
     </footer>
   );

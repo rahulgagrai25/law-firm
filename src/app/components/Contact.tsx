@@ -82,7 +82,7 @@ function Contact() {
             </li>
             <li>
               <span className="contact__icon">✉️</span>
-              <span>contact@firm.co</span>
+              <span>contact@MTSLegalFirm.co</span>
             </li>
             <li>
               <span className="contact__icon">🕒</span>
@@ -90,7 +90,7 @@ function Contact() {
             </li>
             <li>
               <span className="contact__icon">📍</span>
-              <span>12th Wall Street NY CV564 United States</span>
+              <span>Kochi, Kerela</span>
             </li>
           </ul>
         </div>
@@ -148,12 +148,15 @@ function Contact() {
           <div className="contact__row">
             <div className="field field--full">
               <select name="service" value={form.service} onChange={handleChange} aria-label="Service">
-                <option>Corporate Law</option>
-                <option>Real Estate Law</option>
-                <option>Healthcare Law</option>
-                <option>Tax Law</option>
-                <option>Insurance Law</option>
-                <option>E-commerce Law</option>
+                <option>Select option</option>
+                <option>Corporate Law & NCLT proceedings</option>
+                <option>Real Estate & Taxation</option>
+                <option>Civil, Labour & Constitutional matters</option>
+                <option>Criminal Law (Economic Offences)</option>
+                <option>Liquidation, Debt Recovery & Negotiable Instruments</option>
+                <option>Marine Laws & Arbitration</option>
+                <option>Intellectual Property Rights</option>
+                <option>Drafting & Conveyancing </option>
               </select>
             </div>
           </div>

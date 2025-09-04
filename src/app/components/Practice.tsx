@@ -8,12 +8,12 @@ type Card = {
 };
 
 const cards: Card[] = [
-  { id: 1, title: "CORPORATE & SECURITIES", image: "/practice/practice-1.png" },
-  { id: 2, title: "REAL ESTATE LAW", image: "/practice/practice-2.png" },
-  { id: 3, title: "HEALTHCARE LAW", image: "/practice/practice-3.png" },
-  { id: 4, title: "TAX LAW", image: "/practice/practice-4.png" },
-  { id: 5, title: "INSURANCE LAW", image: "/practice/practice-5.png" },
-  { id: 6, title: "E-COMMERCE LAW", image: "/practice/practice-6.png" },
+  { id: 1, title: "CORPORATE LAW & NCLT proceedings", image: "/practice/practice-1.png" },
+  { id: 2, title: "REAL ESTATE & TAXATION", image: "/practice/practice-2.png" },
+  { id: 3, title: " CIVIL, LABOUR & CONSTITUTIONAL MATTERS", image: "/practice/practice-3.png" },
+  { id: 4, title: "CRIMINAL LAW (Economic Offences)", image: "/practice/practice-4.png" },
+  { id: 5, title: "DRAFTING & CONVEYANCING", image: "/practice/practice-5.png" },
+  { id: 6, title: "INTELLECTUAL PROPERTY RIGHTS", image: "/practice/practice-6.png" },
 ];
 
 function Practice() {

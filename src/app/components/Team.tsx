@@ -12,7 +12,7 @@ type Member = {
 };
 
 const members: Member[] = [
-  { id: 1, name: "Donna Evans", role: "Partner", image: "/team/p1.png" },
+  { id: 1, name: "Donna Evans", role: "Head", image: "/team/p9.png" },
   { id: 2, name: "Rebecca Campbell", role: "Partner", image: "/team/p2.png" },
   { id: 3, name: "Kevin King", role: "Partner", image: "/team/p3.png" },
   { id: 4, name: "Steven Scott", role: "Partner", image: "/team/p4.png" },

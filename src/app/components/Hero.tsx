@@ -5,10 +5,11 @@ function Hero() {
   return (
     <div className="hero">
       <div className="hero-text">
-        <h1>Wilson Law Firm.</h1>
+        <h1>MTS Legal Firm.</h1>
         <p>
-          We are a leading law firm in financial & business industry. <br />
-          With more than 20 years of experience.
+          With over 11 years of trusted legal excellence,<br />
+          MTS Legal delivers client-focused solutions in business and finance. Rooted in Kochi. <br />
+          We combine decades of expertise with strategic representation across Kerala and beyond.
         </p>
         <button>CONTACT NOW →</button>
       </div>
